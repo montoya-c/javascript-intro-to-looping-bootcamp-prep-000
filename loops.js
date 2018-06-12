@@ -24,6 +24,6 @@ function whileLoop(countdown){
 
 function doWhileLoop (array){
   do{
-    console.log(array);
+    console.log(array.pop(array.length<0));
   }while (array.length>0 && maybeTrue())
 }
